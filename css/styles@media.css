@@ -177,7 +177,6 @@
     top: 60px;
     list-style-type: none;
     width:100%;
-    height:347px;
     background-color:white;
     border: none;
     margin: 0;
@@ -187,7 +186,8 @@
 
   #menu00 li{
     text-align: center;
-    line-height: 8vh;
+    line-height: 1.5;
+    margin: 30px 0;
   }
   #menu00 a{
     text-decoration: none;
@@ -387,15 +387,18 @@ table {
 .button {
   left: 10%;
   width:80%;
+  font-size:16px;
+  line-height:1.5;
 }
 .button-top {
-  top:50px;
+  top:60px;
   left:200px;
-  width:30%;
+  width:38%;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 14px;
+  padding:10px 15px;
 }
-.button-top-non {
+/*.button-top-non {
   display: none;
-}
+}*/
 }
