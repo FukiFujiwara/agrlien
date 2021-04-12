@@ -13,7 +13,7 @@ a {
   color:darkslategray;
   text-decoration: none;
 }
-a p {
+p a {
   text-decoration: underline;
 }
 a:hover {
