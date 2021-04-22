@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137852318-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-137852318-1');
+    </script>
+
+    <!--Google Search Console-->
+    <meta name="google-site-verification" content="HgMUnmS_cZ05RxmlVaizDheasGpyf8Vz6hPMlGC9lrI" />
+
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"  />
+
+  <meta name="discription" content="東京大学の農業サークル「Agrlien」の公式ホームページです。" />
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <title>部員による玉ねぎの栄養紹介</title>
+  <meta property="og:title" content="部員による玉ねぎの栄養紹介" />
+  <meta property="og:type" content="website" />
+  <!--<meta property="og:url" content=" ページの URL" />-->
+  <meta property="og:image" content="http://agrlien.html.xdomain.jp/blog/blogimages/S__38576193.jpg" />
+  <!--<meta property="og:site_name" content="サイト名" />-->
+  <meta property="og:description" content="東京大学Agrlienの公式ホームページです。" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="部員による玉ねぎの栄養紹介">
+  <meta name="twitter:image" content="http://agrlien.html.xdomain.jp/blog/blogimages/S__38576193.jpg">
+
+  <link rel="stylesheet" href="../css/normalize.css" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/styles@media.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/agrlien_logo.png" alt="">
+        </a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../vision.html">VISION</a></li>
+          <li><a href="../activities.html">ACTIVITIES</a></li>
+          <!--<li><a href="members.html">MEMBERS</a></li>-->
+          <li><a href="../news.html">NEWS</a></li>
+          <li><a href="../blog.html">BLOG</a></li>
+          <li><a href="../sales.html">下中玉ねぎ<br>特設ページ</a></li>
+          <!--<li><a href="">GALLERY</a></li>-->
+        </ul>
+      </div>
+      <div class="snslink">
+        <a href="https://twitter.com/agrlien"><img src="../images/twitter_logo.png" alt=""></a>
+        <a href="https://www.facebook.com/agrlien/?ref=nf&hc_ref=ARRsUoyTX3ZOuDy8zvEcIe0VxGpnvDOS_OsdKPrujLBsd2WyEgM4MK1TG082W-lbT6w"><img src="../images/facebook_logo.png" alt=""></a>
+      </div>
+      <div class="gmail">
+        <img src="../images/mail_logo.png" alt=""><p>yayoi.dining@gmail.com</p>
+      </div>
+      <div class="menu2">
+        <nav class="menu0">
+           <div class="menu1"></div>
+           <div class="menu2"></div>
+           <div class="menu3"></div>
+        </nav>
+        <ul id="menu00">
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../vision.html">VISION</a></li>
+          <li><a href="../activities.html">ACTIVITIES</a></li>
+          <!--<li><a href="members.html">MEMBERS</a></li>-->
+          <li><a href="../news.html">NEWS</a></li>
+          <li><a href="../blog.html">BLOG</a></li>
+          <li><a href="../sales.html">下中玉ねぎ<br>特設ページ</a></li>
+          <!--<li><a href="">GALLERY</a></li>-->
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+      <div class="section">
+        <div class="page_box">
+          <h3>部員による玉ねぎの栄養紹介</h3>
+          <p>2021.04.12　ふじわら</p>
+        </div>
+      <div class="page">
+        <div class="onion-top">
+          <h1>たまねぎ</h1>
+          <p>新陳代謝を促したり神経を鎮めたりする作⽤があり、不眠症や疲労回復にも良いとされている⽟ねぎ。ビタミンやミネラル類はさほど多く含みませんが、機能性成分が豊富で⾎液をサラサラにして動脈硬化を予防するなど、多くの効果が期待できる常備野菜です。</p>
+        </div>
+        <div class="onion-ing">
+          <h2>~要注目機能性成分~</h2>
+            <h3>硫化アリル</h3>
+              <p>⽟ねぎの催涙成分・⾹気成分である硫化アリル類には、ビタミンB₁の吸収促進効果、活性酸素除去作⽤、⾎流の流れを良くする抗⾎栓作⽤などがあるとされています。そのため、動脈硬化や⾼⾎圧を予防するのに有効です。また善⽟コレステロールを増やして悪⽟コレステロールを減らしたり、ストレスや冷え性を解消したりする効果も期待できます。</p>
+            <h3>ケルセチン</h3>
+              <p>⽟ねぎには、細胞を傷つける活性酸素から⾎管を守るケルセチンが豊富に含まれています。抗酸化作⽤や⾎⼩板の凝集を抑える作⽤により⾎液をサラサラにし、動脈硬化の進⾏を抑えて⼼筋梗塞や脳卒中など⾎管系の病気を予防する効果があります。さらにはがん細胞の増殖を抑える作⽤や脂質排泄促進作⽤、花粉症の症状を和らげる抗アレルギー作⽤などもあります。⽔に溶けやすいというケルセチンの性質を活かして、⽪を煮出してお茶やスープにしたり、粉末にして様々な料理に加えたりするのもおススメです。</p>
+        </div>
+        <div class="onion-choice">
+          <h2>おいしい玉ねぎの選び方</h2>
+            <p>・ずっしりと重くて丸く、頭部が固く実が締まっているものを選択する</p>
+            <p>・芽が出ているものは避ける</p>
+            <p>・⽪がよく乾いていてツヤがあり、汚れや傷み、⿊カビのないものを選択する</p>
+           <h2>保存方法</h2>
+            <p>・ネットなどに⼊れて、⾵通しの良い冷暗所に吊るして保存する</p>
+            <p>・湿気に弱く腐りやすいため冷蔵庫での保存は極⼒避ける</p>
+            <p>・⽔分が多い新⽟ねぎや夏場は、新聞紙にくるんで野菜室で冷蔵保存する（その場合は傷みやすいので早めに消費する）</p>
+          <h2>調理時のコツ</h2>
+            <p>・⽟ねぎは加熱すると⽢味が増すが、硫化アリルは⽔溶性で熱に弱いため、⽣⾷がおススメ</p>
+            <p>・細かく切れば切るほど、カット後空気に触れさせて時間を置けば置くほど、抗酸化成分が増える</p>
+            <p>・効果が薄れてしまうため、⽔にさらす時間は短めにとどめる</p>
+         </div>
+
+
+          <br><br><br><br>
+          ※本ブログの内容は個人的な意見であり、いかなる所属の見解を示しているものではありません。<br>
+            ※文章、画像の無断転載・無断使用を禁じます。
+
+          </p>
+        </div>
+      </div>
+      <div class="page_list">
+        <div class="before">
+          <a href="blog210129.html">前の記事</a>
+        </div>
+        <div class="page_list_link">
+          <a href="../blog.html">一覧へ</a>
+        </div>
+        <div class="next">
+          <a href="">次の記事</a>
+        </div>
+
+      </div>
+
+      </div>
+      <div class="footer">
+        <p>東京大学Agrlien</p>
+        <p>Copyright&copy; Agrlien All Rights Reserved.</p>
+      </div>
+    </div>
+
+  </div>
+  <!--メニュー-->
+  <script>
+   $(function(){
+       $(".menu0").click(function(){
+           $(".menu1").toggleClass("menuclick1")
+       });
+       $(".menu0").click(function(){
+           $(".menu2").toggleClass("menuclick2")
+       });
+       $(".menu0").click(function(){
+           $(".menu3").toggleClass("menuclick3")
+       });
+   });
+   </script>
+   <script>
+    jQuery(function($){
+          $('.menu0').click(function(){
+             if ($('#menu00').css('display') == 'none') {
+              $('#menu00').slideDown('slow');
+            } else {
+               $('#menu00').slideUp('slow');
+             }
+          });
+            });
+    </script>
+    <!--フェードイン-->
+  <script>
+  $(window).scroll(function (){
+     $('.fade').each(function(){
+         var elemPos = $(this).offset().top,
+             scroll = $(window).scrollTop(),
+             windowHeight = $(window).height();
+           if (scroll > elemPos - windowHeight + 200){
+               $(this).addClass('fadein');
+             } /*else {
+                $(this).removeClass('fadein');
+             }*/
+         });
+   });
+  </script>
+</body>
+
+</html>
