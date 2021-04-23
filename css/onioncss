@@ -1,0 +1,63 @@
+.lw { font-size: 60px; }
+
+body {
+  width: 600px;
+}
+
+.onion-top {
+  background-color: #f5deb3; 
+  border: 1px solid #f5deb3;
+  border-radius: 40px;
+}
+
+.onion-top h1 {
+  border-bottom: 4px solid #8b4513;
+  font-size: 40px;
+  padding: 50px;
+  text-align: center;
+}
+
+.onion-top p {
+  margin: 0 50px;
+  padding-bottom: 20px;
+}
+
+
+.onion-ing h2 {
+  background-color: #f5deb3;
+  border: 1px solid #f5deb3;
+  border-radius: 40px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.onion-ing h3 {
+  font-size: 20px;
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+  width: 200px;
+}
+
+.onion-ing h4 {
+  border: 1px solid #ff9900;
+  border-radius: 10px;
+  float: right;
+  text-align: center;
+  width: 398px;
+}
+
+.onion-ing p {
+  text-align: left;
+  margin-top: 120px;
+}
+
+.onion-choice h2 {
+  background-color: #66cdaa;
+  border-radius: 10px;
+  color: #333333;
+  margin-top: 40px;
+  padding: 5px;
+  text-align: center;
+}
