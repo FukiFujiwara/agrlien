@@ -420,20 +420,25 @@ table {
   height: 110px;
 }
 .page_list {
+  display: flex;
+  flex-wrap:wrap;
+  margin-bottom: 20px;
 }
+
 .before, .page_list_link, .next {
   display: inline-block;
-  width:25%;
+  width: calc(100% / 3);
   text-align: center;
   line-height: 5;
-  border-top: 2px dashed darkslategray;
+}
+.page_list a {
+  border:1px solid darkslategray;
+  padding:1rem;
 }
 .before:hover, .page_list_link:hover, .next:hover {
   opacity: 0.7;
 }
 .page_list_link{
-  border-left: 2px dashed darkslategray;
-  border-right: 2px dashed darkslategray;
 }
 /*アクティビティ*/
 .page_box img {
