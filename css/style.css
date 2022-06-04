@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/*一般スタイル*/
+body {
+  font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+  color: darkslategray;
+  font-weight: bold;
+}
+
+p {
+  line-height: 2;
+  color: darkslategray;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+a {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+h2 {
+  line-height: 1.5;
+}
+
+h4 {
+  margin: 5px 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: block;
+}
+
+table {
+  font-size: 1.5em;
+  line-height: 2;
+  width: 90%;
+  border: 2px solid gray;
+}
+
+.fade {
+  opacity: 0;
+  transform: translate(0, 60px);
+  -webkit-transform: translate(0, 60px);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.fadein {
+  opacity: 1.0;
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+}
+
+/*メニュー*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 75px;
+  z-index: 99;
+  background-color: #efede5;
+  background-color: white;
+  border-right: dashed green 1px;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    width: 280px;
+    height: 100vh;
+  }
+}
+
+.logo {
+  width: 100px;
+  padding: 10px 40px;
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    width: 180px;
+    padding: 40px 50px 20px 50px;
+    text-align: center;
+  }
+}
+
+.logo p {
+  width: 300px;
+  left: 0;
+  text-align: left;
+  font-size: 13px;
+  color: darkslategray;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menu {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.menu2 {
+  display: none;
+}
+
+.menu li {
+  margin: 30px auto;
+  width: 50%;
+  padding-bottom: 4px;
+  color: darkslategray;
+}
+
+.menu li a:after {
+  content: '';
+  width: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-bottom: 3px solid white;
+  display: block;
+}
+
+.menu li a:hover:after {
+  width: 100%;
+  border-bottom: 3px solid white;
+}
+
+.snslink {
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.snslink img {
+  width: 40px;
+  margin: 0 10px;
+}
+
+.gmail {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.gmail img {
+  height: 30px;
+}
+
+.gmail p {
+  font-size: 14px;
+  display: inline-block;
+  position: relative;
+  top: -12px;
+  left: 10px;
+}
+/*# sourceMappingURL=style.css.map */

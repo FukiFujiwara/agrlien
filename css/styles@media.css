@@ -67,11 +67,8 @@
     width:100vw;
   }
   .section {
-    width:100%;
-    margin-left: 0;
-  }
-  .page_box {
-    padding:10px 10%;
+    width:80%;
+    margin-left: 10%;
   }
   #copy {
     width:100%;
@@ -81,7 +78,7 @@
   .main_visual, .main_visual_img {
     margin: 0;
     width:100vw;
-    height:70vh;
+    height:60vh;
   }
   .main_visual_img img {
     object-fit: contain;
@@ -236,7 +233,7 @@ p{
   padding: 10px 20px;
 }
 .main_visual, .main_visual_img {
-  height:40vh;
+  height:30vh;
 }
 #copy {
   top:230px;
@@ -401,4 +398,17 @@ table {
 /*.button-top-non {
   display: none;
 }*/
+.item_box {
+  width:48%;
+  margin-right: 2px;
+}
+.item_box img {
+  height:auto;
+}
+.item_box_content h4{
+  margin:10px 0;
+}
+.item_box_content p {
+  margin:5px 0 20px 0;
+}
 }

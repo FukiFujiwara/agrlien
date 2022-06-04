@@ -29,7 +29,7 @@ h2 {
 h4 {
   padding-left: 10px;
   font-weight:bolder;
-  border-left: 5px solid darkslategray;
+  font-size: 1.4em;
 }
 ul {
   padding: 0;
@@ -133,7 +133,7 @@ table {
 
 }
 .main_visual {
-  height: 100vh;
+  height: 70vh;
   width:100%;
   /*margin-left: 5%;*/
 }
@@ -141,7 +141,7 @@ table {
   overflow: hidden;
   display: inline-block;
   width:100%;
-  height:100vh;
+  height:80vh;
   z-index: 99;
 }
 .main_visual_img ul li img{
@@ -266,11 +266,13 @@ table {
   border-bottom:1px solid darkslategray;
   padding:15px 0;
  }
+/*
 .news_box:hover {
   background-color: darkslategray;
   color:white;
   transition: .5s;
 }
+*/
 .news_box h5{
   display: inline-block;
   width:150px;
@@ -387,6 +389,59 @@ table {
   height:100%;
 }
 
+/*メンバー*/
+.member_list {
+  margin-top: 50px;
+  line-height: 0;
+}
+.member_list h2 {
+  margin-top: 50px;
+  border-bottom: 1px solid gray;
+}
+.member_box {
+  display: inline-block;
+  width:25%;
+  height:180px;
+  margin-top: 60px;
+  text-align: center;
+}
+.member_box img {
+  height:140px;
+  width:auto;
+}
+.member_box h4 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 30px;
+}
+.member_box p {
+  font-size: 14px;
+  margin: 0;
+}
+.member_ob {
+  height: 110px;
+}
+.page_list {
+  display: flex;
+  flex-wrap:wrap;
+  margin-bottom: 20px;
+}
+
+.before, .page_list_link, .next {
+  display: inline-block;
+  width: calc(100% / 3);
+  text-align: center;
+  line-height: 5;
+}
+.page_list a {
+  border:1px solid darkslategray;
+  padding:1rem;
+}
+.before:hover, .page_list_link:hover, .next:hover {
+  opacity: 0.7;
+}
+.page_list_link{
+}
 /*アクティビティ*/
 .page_box img {
   width:600px;
@@ -487,12 +542,37 @@ table {
 }
 
 .item_box {
- width:45%;
- display:inline-block;
+  width:40%;
+  display: inline-block;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .5);
+  margin-right: 15px;
+  border-radius: 5px;
 }
-
-.item_box img {
+.item_box_img {
+  margin: 0;
   width:100%;
-  height:auto!important;
-  margin-bottom: 15px;;
+  height:auto;
+  overflow: hidden;
+}
+.item_box_img img {
+  margin: 0;
+  width:100%;
+  height:auto;
+  transition:.5s all;
+}
+.item_box_img img:hover {
+  transform:scale(1.2,1.2);
+  transition:.5s all;
+}
+.item_box_content {
+  padding:0 20px;
+}
+.item_box_content h4 {
+  border: none;
+  padding: 0;
+  border-bottom: 2px solid black;
+}
+.item_box:hover {
+  opacity: 0.8;
+  transition: .5s;
 }
